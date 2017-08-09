@@ -9,7 +9,7 @@
   "config": {
       "blanket": {
         "pattern": [ "" ],
-        "data-cover-never": [ "node_modules", "tests" ]
+        "data-cover-never": [ "node_modules" ]
       }
   },
   "devDependencies": {
