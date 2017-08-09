@@ -1,4 +1,3 @@
-/*eslint linebreak-style: [2, "windows"]*/
 // @flow
 
 import socketIOClient from 'socket.io-client'

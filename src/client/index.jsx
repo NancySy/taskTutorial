@@ -1,6 +1,5 @@
 // @flow
 
-/*eslint linebreak-style: [2, "windows"]*/
 import 'babel-polyfill'
 
 import Immutable from 'immutable'

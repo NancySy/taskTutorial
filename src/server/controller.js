@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
 // @flow
 
 export const homePage = () => null
