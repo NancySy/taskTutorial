@@ -1,3 +1,4 @@
+/*eslint linebreak-style: ["error", "windows"]*/
 // @flow
 
 import React from 'react'
