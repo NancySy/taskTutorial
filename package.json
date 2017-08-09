@@ -6,16 +6,6 @@
   "browserslist": [
     "> 1%"
   ],
-  "config": {
-    "blanket": {
-      "pattern": [
-        ""
-      ],
-      "data-cover-never": [
-        "node_modules"
-      ]
-    }
-  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
@@ -83,5 +73,9 @@
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.0.3",
     "tether": "^1.4.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
