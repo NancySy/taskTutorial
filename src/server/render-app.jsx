@@ -35,7 +35,7 @@ const renderApp = (location: string, plainPartialState: ?Object, routerContext: 
         ${head.meta}
         <link rel="stylesheet" href="${STATIC_PATH}/css/bootstrap.min.css">
         <style class="${JSS_SSR_CLASS}">${sheets.toString()}</style>
-        <script src="blanket.js"></script>
+        <script src="https://raw.githubusercontent.com/alex-seville/blanket/master/dist/qunit/blanket.min.js"></script>
       </head>
       <body>
         <div class="${APP_CONTAINER_CLASS}">${appHtml}</div>
