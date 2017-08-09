@@ -1,4 +1,4 @@
-/*eslint linebreak-style: ["error", "windows"]*/
+/* eslint linebreak-style: ["error", "windows"] */
 // @flow
 
 import compression from 'compression'
